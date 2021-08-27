@@ -1,0 +1,384 @@
+@media ( max-width: 1850px )
+    .service__content 
+       width: 1000px
+       &_wrapper
+           width: 600px
+
+@media ( max-width: 1660px )
+    .service__content 
+       width: 800px
+       top: 250px
+       &_wrapper
+           width: 400px
+    
+@media ( max-width: 1460px )
+    .nav__menu_link
+        font-size: 12px
+    .nav__list
+        flex-wrap: wrap
+    .footer
+        &__info
+            margin-left: 30px
+        &__menu_link
+            font-size: 14px 
+    .tab
+        &__item
+            padding: 0 10px
+            font-size: 15px
+
+@media ( max-width: 1150px )
+    .nav__list
+        width: 600px
+        margin: 0 auto
+    .nav__menu_link
+        font-size: 17px
+        margin: 10px 10px 0
+    .footer
+        &__menu_link
+            font-size: 13px 
+        &__text
+            font-size: 19px
+    .content
+        padding: 10px 150px 50px
+    .tab
+        &__content
+            width: 95%
+        &__text
+            width: 95%
+        &__advantage
+            width: 95%
+            &_content
+                margin-top: 20px
+
+@media ( max-width: 1040px )
+    .nav__list
+        width: 400px
+    .nav__menu_link
+        margin-top: 20px
+    .footer
+        &__wrapper
+            flex-direction: column
+        &__list
+            flex-wrap: wrap
+            width: 100%
+            justify-content: flex-start
+        &__info
+            margin-top: 20px
+            margin-left: 0
+            width: 100%
+        &__point
+            margin: 10px 30px 0 0
+        &__menu
+            &__link
+                font-size: 18px
+                margin: 10px 10px 0 0
+    .content
+        padding: 10px 50px 50px
+        &__text
+            font-size: 20px
+            line-height: 30px
+        &__point
+            font-size: 20px
+            line-height: 30px
+        &__title
+            font-size: 30px
+        &__blue
+            font-size: 22px
+            line-height: 25px
+        &__info
+            font-size: 14px
+        &__num
+            font-size: 16px
+    .header
+        &__title
+            margin-left: 0
+            font-size: 45px
+    .mt168
+        left: 50px
+    .tab
+        &__item
+            padding: 0 5px
+        &__content
+            width: 100%
+
+@media ( max-width: 800px )
+    .nav__list
+        width: 300px
+    .nav__menu_link
+        font-size: 12px
+
+@media ( max-width: 768px )
+    .section
+        height: auto !important
+    .humburger
+        position: absolute
+        right: 50px
+        top: 50px
+        display: flex
+        &__close
+            position: absolute
+            top: 50px
+            right: 30px
+            width: 50px
+            height: 55px
+        &__right
+            position: absolute
+            height: 3px
+            width: 35px
+            background-color: #313131
+            transform: rotate(-45deg)
+            z-index: 5000
+        &__left
+            position: absolute
+            height: 3px
+            width: 35px
+            background-color: #313131
+            transform: rotate(45deg)
+            z-index: 5000
+        &__menu
+            display: flex
+            position: fixed
+            right: 0
+            top: 0
+            height: 100vh
+            transform: translateY(-100%)
+            background-color: #fff
+            flex-direction: column
+            align-items: flex-start
+            padding: 100px
+            box-sizing: border-box
+            z-index: 1000
+            &-active
+                transform: translateY(0%)
+        &__menu
+            &_link
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: normal
+                font-size: 17px
+                text-transform: uppercase
+                color: #313131
+        &__point
+            margin-top: 15px
+        &__contact
+            margin-top: 20px
+            display: flex
+            justify-content: space-between
+            align-items: center
+        &__phone_link
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: normal
+            font-size: 17px
+            color: #313131
+    .nav
+        &__menu 
+            display: none
+        &__contact
+            display: none
+    body
+        z-index: -20000000000000
+    .header
+        padding: 30px 50px 0
+        &__main
+            padding-bottom: 30px
+            &_container
+                margin: 60px 0 0
+            &_title
+                font-size: 30px
+                width: 566px
+            &_line
+                width: 100%
+                z-index: 9488949584958
+            &_subtitle
+                font-size: 18px;
+                line-height: 18px
+            &_list
+                width: 100%
+            &_point
+                font-size: 16px;
+                line-height: 22px
+                margin-top: 10px
+            &_scroll
+                display: none
+    .footer
+        &__address
+            height: auto
+            margin-top: 40px
+        &__contact
+            height: auto
+            margin-top: 20px
+        &__phone
+            margin-left: 0
+    .content
+        &__item
+            width: 45%
+            margin-top: 15px
+    .gray
+        height: auto
+        &__item
+            margin-top: 10px
+            width: 45%
+    .tab
+        &__item
+            width: 45%
+            margin-top: 30px
+            height: 50px
+            display: flex
+            justify-content: center
+            font-size: 12px
+        &__content
+            height: auto
+        &__doki
+            &_text
+                font-size: 12px
+                width: 70%
+    .service
+        &__list
+            flex-direction: column
+            height: auto
+            width: 100%
+        &__item
+            position: relative
+            min-height: 100px
+            flex-wrap: wrap
+            height: auto
+            &_text
+                width: 70%
+        &__content
+            position: static
+            width: 100%
+            width: 100%
+            padding: 50px 0 0
+            z-index: 121212
+            background-color: transparent
+            box-shadow: none
+            &_wrapper
+                height: auto
+                width: 100%
+            &_logo
+                display: none
+            &_text
+                color: #fff
+        .header__main_link
+            display: flex
+    .news
+        .slick
+            &-next
+                right: 0
+            &-prev
+                right: 75px
+    .direct
+        &__wrapper
+            .tab__doki
+                width: 90%
+        &__info
+            width: 90%
+        &__doki
+            &_text
+                font-size: 14px
+    .form
+        padding-bottom: 30px
+        &__content
+            height: auto
+        &__btn
+            width: 100%
+
+
+@media ( max-width: 425px )
+    .header
+        &__title
+            font-size: 30px
+    .content
+        &__title
+            font-size: 25px
+        &__text
+            font-size: 16px
+            line-height: 20px
+        &__point
+            font-size: 16px
+            line-height: 20px
+        &__item
+            width: 90%
+    .gray
+        &__item
+            width: 90%
+
+@media ( max-width: 380px )
+    .header
+        &__main
+            padding: 30px 20px 
+            &_container
+                margin-top: 30px
+            &_title
+                width: 100%
+                font-size: 25px
+                line-height: 40px
+            &_line
+                margin-top: 15px
+            &_subtitle
+                margin-top: 15px
+            &_list
+                padding-left: 15px
+                margin-top: 15px
+                width: 100%
+            &_point
+                font-size: 14px
+                line-height: 20px
+                width: 100%
+    .section
+        padding: 50px 10px
+        &__logo
+            width: 139px
+    .tab
+        &__title
+            font-size: 25px
+            line-height: 35px
+        &__text
+            font-size: 14px
+            line-height: 20px
+            margin: 30px 0 0 0
+        &__item
+            width: 100%
+        &__info
+            width: 200px
+        &__advantage
+            &_title
+                font-size: 20px
+                line-height: 20px
+    .service
+        &__title
+            font-size: 25px
+            line-height: 25px
+        &__wrapper
+            width: 100%
+        &__item
+            width: 100%
+        .header__main_link
+            width: 90%
+            .header__main_plus
+                circle , line
+                        stroke: #fff
+                &-wrapper
+                    color: #fff
+                    hr
+                        background-color: #ffffff9f
+                        &::before
+                            background-color: #fff
+    .news
+        &__title
+            font-size: 25px
+            line-height: 25px
+    .direct
+        &__wrapper
+            margin: 30px 0
+    .form
+        &__bg
+            display: none
+        &__content
+            width: 100%
+            margin: 0
+            padding: 0
+        &__title
+            font-size: 30px
+            line-height: 30px
